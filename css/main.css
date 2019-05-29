@@ -1,3 +1,9 @@
 body {
-    background: #464141;
-}
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }
