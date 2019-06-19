@@ -1,5 +1,5 @@
 body {
-    background: #6f8166;
+    background: #a8aca6;
 }
 
 head {
@@ -11,8 +11,10 @@ title{
 }
 
 p {
-    border: 1px solid powderblue;
-    margin: 50px;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
   }
 
 /*====== Media Queries =======*/
