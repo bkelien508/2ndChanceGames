@@ -1,3 +1,5 @@
+/*======== General CSS ===========*/
+
 body {
     background: #a8aca6;
 }
@@ -24,6 +26,6 @@ p {
     }
 }
 
-  @media (min-width: 700px) {
+@media (min-width: 700px) {
     
   }
