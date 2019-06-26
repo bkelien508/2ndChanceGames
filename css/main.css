@@ -1,4 +1,12 @@
 /*======== General CSS ===========*/
+.header {
+    background-color: aqua;
+    height: 200px;
+    text-align: center;
+    position: static;
+    float: inline-end;
+}
+
 body {
     background: #a8aca6;
 }
