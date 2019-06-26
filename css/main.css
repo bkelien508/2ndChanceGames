@@ -3,8 +3,14 @@
     background-color: aqua;
     height: 200px;
     text-align: center;
-    position: static;
-    float: inline-end;
+    position: fixed;
+
+}
+
+.card {
+    background-color: chartreuse;
+    width: 29%;
+    height: 300px;
 }
 
 body {
@@ -30,7 +36,7 @@ title{
 
 p {
     width: 300px;
-    border: 15px solid green;
+    border: 15px solid red;
     padding: 50px;
     margin: 20px;
   }
