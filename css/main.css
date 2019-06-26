@@ -1,7 +1,15 @@
 /*======== General CSS ===========*/
-
 body {
     background: #a8aca6;
+}
+
+h1 {
+    background-color: #3D9970;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
 }
 
 head {
@@ -20,8 +28,8 @@ p {
   }
 
   .img{
-    width:100px;
-    height:100px;
+    width:300px;
+    height:200px;
  
  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
      object-fit:scale-down;
