@@ -19,7 +19,8 @@
 }
 
 body {
-    background-image: image("ControllerBackground.jpg")
+    background: #a8aca6;
+    background-image: url("../img/ControllerBackground.jpg");
 }
 
 head {
@@ -35,13 +36,13 @@ p {
     border: #000000;
   }
 
-  .img{
+.img{
     width:300px;
     height:200px;
  
  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
      object-fit:scale-down;
-  }
+ }
 
 /*====== Media Queries =======*/
 @media only screen and (max-width: 600px) {
