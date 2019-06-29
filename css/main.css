@@ -13,8 +13,13 @@
     height: 300px;
 }
 
+.box {
+    padding: 30px
+        
+}
+
 body {
-    background: #a8aca6;
+    background-image: image("ControllerBackground.jpg")
 }
 
 head {
