@@ -3,8 +3,8 @@
     background-color: aqua;
     height: 200px;
     text-align: center;
-    position: fixed;
-
+    margin: 0 auto;
+    width: 80%;
 }
 
 .card {
@@ -17,15 +17,6 @@ body {
     background: #a8aca6;
 }
 
-h1 {
-    background-color: #3D9970;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-}
-
 head {
     background: #000000;
 }
@@ -35,10 +26,8 @@ title{
 }
 
 p {
-    width: 300px;
-    border: 15px solid red;
-    padding: 50px;
-    margin: 20px;
+    position: sticky;
+    border: #000000;
   }
 
   .img{
