@@ -5,6 +5,7 @@
     text-align: center;
     margin: 0 auto;
     width: 80%;
+    font-size: x-large;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
     width: 29%;
     height: 400px;
     float: left;
-    border: 20px solid blue;
+    border: 20px double blue;
 }
 
 .box {
@@ -54,12 +55,29 @@ p {
  }
 
 /*====== Media Queries =======*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1056 x 622) {
     body {
         background-color: lightblue;
     }
+
+    .img{
+        width:200px;
+        height:150px;
+    
+     
+     /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+         object-fit:scale-down;
+     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1040 x 622) {
+    .img{
+        width:100px;
+        height:100px;
+    
+     
+     /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+         object-fit:scale-down;
+     }
     
 }
