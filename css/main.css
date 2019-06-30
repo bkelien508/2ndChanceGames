@@ -1,11 +1,11 @@
 /*======== General CSS ===========*/
 .header {
     background-color: aqua;
-    height: 100px;
+    height: 53px;
     text-align: center;
     margin: 0 auto;
     width: 80%;
-    font-size: x-large;
+    font-size: 45px;
 }
 
 h1 {
@@ -15,8 +15,8 @@ h1 {
 }
 
 .card {
-    background-color: rgb(151, 175, 127);
-    width: 29%;
+    background-color: rgb(120, 155, 135); /* Edited via Console */
+    width: 31%;
     height: 400px;
     float: left;
     border: 20px double blue;
