@@ -14,10 +14,11 @@ h1 {
 }
 
 .card {
-    background-color: chartreuse;
+    background-color: rgb(151, 175, 127);
     width: 29%;
     height: 400px;
     float: left;
+    border: 20px solid blue;
 }
 
 .box {
