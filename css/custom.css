@@ -1,0 +1,54 @@
+/*======== General CSS ===========*/
+.header {
+    background-color: aqua;
+    height: 53px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 42px;
+}
+
+h1 {
+    background-color: red;
+    font-size: -webkit-xxx-large;
+    text-align: center;
+}
+
+.game {
+    background-color: rgb(120, 155, 135); /* Edited via Console */
+    width: 31%;
+    height: 400px;
+    float: left;
+    border: 20px double blue;
+}
+
+.box {
+    padding: 30px
+}
+
+body {
+    background: #a8aca6;
+    background-image: url("../img/ControllerBackground.jpg");
+}
+
+head {
+    background: #000000;
+}
+
+title{ 
+    background: #000000
+}
+
+p {
+    position: sticky;
+    border: #000000;
+  }
+
+.img{
+    width:300px;
+    height:200px;
+
+ 
+ /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+     object-fit:scale-down;
+ }
