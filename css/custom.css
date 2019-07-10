@@ -8,9 +8,12 @@
     font-size: 42px;
 }
 
-h1 {
+.card {
+    margin: 10px;
+}
+
+h5 {
     background-color: red;
-    font-size: -webkit-xxx-large;
     text-align: center;
 }
 
