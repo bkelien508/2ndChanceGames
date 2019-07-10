@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -13,7 +14,7 @@
   <meta name="author" content="Benjamin Kelien">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -32,107 +33,111 @@
 </head>
 
 <body>
-  <div class="header nav-bar">Games worth a 2nd look</div>
+  <!-- Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">2nd Chance Games</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <h1>Let's jump right in!</h1> 
-
-  <!-- Card Gallery -->
-  <div class="card" style="width: 18rem;">
-    <img src="img/SuperMarioWorld.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Top<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Systems
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Super Nintendo</a>
+            <a class="dropdown-item" href="#">Game Boy Advance</a>
+            <a class="dropdown-item" href="#">Xbox</a>
+            <a class="dropdown-item" href="#">Mobile</a>
+            <a class="dropdown-item" href="#">Board Games</a>
+          </div>
     </div>
-  </div>
-  
-  <div class="card game">
-    <h3>Super Mario World</h3>
-    <img src="img/SuperMarioWorld.png" alt="Super Mario World" class="img snes">
-      <div class="box">
-        <h4>My first game was Super Mario World that my father and I played together.  We would spend hours playing this and other games and thus my love of gaming was born.</h4>
-        <p>Nintendo; November 1990.</p>
-      </div>  
-  </div>
+  </nav>
+  <!-- /Navigation Bar-->
 
-  <div class="game">
-   <img src="img/SuperMetroid.jpg" alt="Super Metroid" class="img snes">
-      <h4>Super Metroid is a great game that encouraged exploring an alien planet, jumping from place to place, and shooting the aliens before they get you.</h4>
-      <p>Nintendo; March 1994.</p>
-  </div>
-  
-  <div class="game">
-    <img src="img/SuperMarioRPG.jpg" alt="Super Mario RPG" class="img snes">
-    <div class="box">
-      <h4>My first game was Super Mario World that my father and I played together.  We would spend hours playing this and other games and thus my love of gaming was born.</h4>
-      <p>Nintendo; November 1990.</p>
-    </div>  
-  </div>
-    
-  <div class="game">
-    <img src="img/CastlevaniaCircleoftheMoon.jpg" alt="Castlevania Circle of the Moon" class="img gba">
-    <div class="box">
-      <h4>My first game was Super Mario World that my father and I played together.  We would spend hours playing this and other games and thus my love of gaming was born.</h4>
-      <p>Nintendo; November 1990.</p>
-    </div>  
-  </div>
-
-  <div class="game">
-    <img src="img/FireEmblem.jpg" alt="Fire Emblem" class="img gba">
-    <div class="box">
-      <h4>...</h4>
-      <p>...</p>
-    </div>  
-  </div>
-  
-  <div class="game">
-    <img src="img/GoldenSun.jpg" alt="Golden Sun" class="img gba">
-    <div class="box">
-      <h4>...</h4>
-      <p>...</p>
-    </div>  
-  </div>
-
-  <div class="game">
-    <img src="img/HaloCombatEvolved.jpeg" alt="Halo: Combat Evolved" class="img xbox">
-    <div class="box">
-      <h4>...</h4>
-      <p>...</p>
-    </div>
-  </div>
-
-  <div class="game">
-    <img src="img/Fable.jpg" alt="Fable" class="img xbox">
-      <div class="box">
-        <h4>...</h4>
-        <p>...</p>
+  <div class="container">
+    <div class="row mx-md-5">
+      <!-- Card Gallery -->
+      <div class="card " style="width: 18rem;">
+        <img src="img/SuperMarioWorld.png" class="card-img-top" alt="Super Mario World">
+        <div class="card-body">
+          <h5 class="card-title">Super Mario World</h5>
+          <p class="card-text">My first game was Super Mario World that my father and I played together. We would spend
+            hours playing this and other games and thus my love of gaming was born.</p>
+          <p class="card-text">Nintendo; November 1990.</p>
+        </div>
       </div>
-  </div>
 
-  <div class="game">
-    <img src="img/ClashOfClans.jpeg" alt="Clash of Clans" class="img mobile">
-    <div class="box">
-      <h4>...</h4>
-      <p>...</p>
-    </div>
-  </div>
+      <div class="card " style="width: 18rem;">
+        <img src="img/SuperMetroid.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
 
-  <div class="game">
-    <img src="img/BetrayalAtHouseOnTheHauntedHill.jpg" alt="Betrayal At House On The Haunted Hill" class="img board">
-    <div class="box">
-      <h4>...</h4>
-      <p>...</p>
-    </div>
-  </div>
+      <div class="card " style="width: 18rem;">
+        <img src="img/SuperMetroid.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
 
-  <div class="game">
-    <img src="img/ShadowsOverCamelot.jpg" alt="Shadows over Camelot" class="img board">
-    <div class="box">
-      <h4>...</h4>
-      <p>...</p>
-    </div>
-  </div>
+      <div class="card " style="width: 18rem;">
+        <img src="img/SuperMetroid.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
 
+      <div class="card " style="width: 18rem;">
+        <img src="img/SuperMetroid.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card " style="width: 18rem;">
+        <img src="img/SuperMetroid.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card " style="width: 18rem;">
+        <img src="img/SuperMetroid.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+    </div><!-- closes row div -->
+
+  </div> <!-- closes container div -->
   <!-- /Card Gallery -->
 
   <!-- Javascript -->
