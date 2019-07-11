@@ -8,6 +8,14 @@
     font-size: 42px;
 }
 
+.dropbtn {
+    background-color: rosybrown;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
 .card {
     margin: 10px;
 }
