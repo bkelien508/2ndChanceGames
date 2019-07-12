@@ -3,7 +3,7 @@ document.getElementById("game-title").addEventListener("mouseover", mouseOver);
 document.getElementById("game-title").addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
-  document.getElementById("game-title").style.color = "blue";
+  document.getElementById("game-title").style.color = "yellow";
 }
 
 function mouseOut() {
