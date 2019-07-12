@@ -5,15 +5,6 @@ var games = {
 };
 
 // Changes the color when the mouse goes over the title
-// $(document).ready(function () {
-//   $(".card-title").mousemove(function () {
-//     $(".card-title").css("background-color", "yellow");
-//   });
-//   $(".card-title").mouseout(function () {
-//     $(".card-title").css("background-color", "red");
-//   });
-// });
-
 document.getElementById("game-title").addEventListener("mouseover", mouseOver);
 document.getElementById("game-title").addEventListener("mouseout", mouseOut);
 
