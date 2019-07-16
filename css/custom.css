@@ -1,19 +1,10 @@
 /*======== General CSS ===========*/
-.header {
-    background-color: aqua;
-    height: 53px;
-    text-align: center;
-    margin: 0 auto;
-    width: 80%;
-    font-size: 42px;
-}
-
 .dropbtn {
-    background-color: rosybrown;
+    background-color: rgb(110, 190, 228);
 }
 
 .dropdown a:hover {
-    background-color: greenyellow;
+    background-color: rgb(83, 255, 83);
 }
 
 .card {
@@ -42,24 +33,23 @@ body {
     background-image: url("../img/ControllerBackground.jpg");
 }
 
-head {
-    background: #000000;
-}
-
-title{ 
-    background: #000000
-}
-
 p {
     position: sticky;
     border: #000000;
   }
 
-.img{
-    width:300px;
-    height:200px;
-
- 
+.photo{
+    width:150px;
+    height:150px;
+    
  /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
      object-fit:scale-down;
+ }
+
+ .btn {
+     transition: 0.5s;
+ }
+
+ .btn:hover {
+     background: #000000;
  }
