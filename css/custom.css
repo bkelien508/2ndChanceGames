@@ -16,13 +16,17 @@ h5 {
     text-align: center;
 }
 
-.game {
-    background-color: rgb(120, 155, 135); /* Edited via Console */
+/* .game {
+    background-color: rgb(120, 155, 135);
     width: 31%;
     height: 400px;
     float: left;
     border: 20px double blue;
-}
+} */
+
+/* .game-title:hover {
+    
+} */
 
 .box {
     padding: 30px
