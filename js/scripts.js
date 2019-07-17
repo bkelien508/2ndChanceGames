@@ -1,11 +1,8 @@
-// Changes the color when the mouse goes over the title
-document.getElementById("game-title").addEventListener("mouseover", mouseOver);
-document.getElementById("game-title").addEventListener("mouseout", mouseOut);
+// $(".dropbtn").button('toggle')
+// $(".dropbtn").button('dispose')
 
-function mouseOver() {
-  document.getElementById("game-title").style.color = "yellow";
-}
 
-function mouseOut() {
-  document.getElementById("game-title").style.color = "lightgrey";
-}
+//For dropdown links
+$('#myDropdown').on('show.bs.dropdown', function () {
+  // do something...
+})
