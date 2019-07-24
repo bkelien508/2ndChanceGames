@@ -1,8 +1,10 @@
-# Project_Name
+# 2nd Chance Games
 
 ## Description
 ```
-A brief description of your project
+My project is a card gallery of 11 games that I think could be played today with little to no issues and still be quite enjoyable.
+
+This is of course my opinion.  The first card is the main card and I am still working to make the other cardsthe same as it.
 
 ```
 
@@ -23,7 +25,7 @@ The class(es) I created are:
 
 ## Custom JavaScript Functions
 ```
-The javascript functions I created are:
+The javascript functions I created is:
 
 1. function name ex( animate() )
 .. what function does ex( animate() is used to move the elements in the info div across the screen)
