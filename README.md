@@ -1,8 +1,10 @@
-# Project_Name
+# 2nd Chance Games
 
 ## Description
 ```
-A brief description of your project
+My project is a card gallery of 11 games that I think could be played today with little to no issues and still be quite enjoyable.
+
+This is of course my opinion.  The first card is the main card and I am still working to make the other cardsthe same as it.
 
 ```
 
