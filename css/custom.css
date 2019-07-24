@@ -11,12 +11,12 @@
     margin: 10px;
 }
 
-h5 {
+h5 { /* Highlights tttle text */
     background-color: red;
     text-align: center;
 }
 
-body {
+body { /* Changes background image to a selected image */
     background: #a8aca6;
     background-image: url("../img/ControllerBackground.jpg");
 }
