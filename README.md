@@ -6,6 +6,8 @@ My project is a card gallery of 11 games that I think could be played today with
 
 This is of course my opinion.  The first card is the main card and I am still working to make the other cardsthe same as it.
 
+I utilizied BootStrap to help with responsiveness and to build the card gallery.
+
 ```
 
 
