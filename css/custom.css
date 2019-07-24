@@ -16,22 +16,6 @@ h5 {
     text-align: center;
 }
 
-/* .game {
-    background-color: rgb(120, 155, 135);
-    width: 31%;
-    height: 400px;
-    float: left;
-    border: 20px double blue;
-} */
-
-/* .game-title:hover {
-    
-} */
-
-.box {
-    padding: 30px
-}
-
 body {
     background: #a8aca6;
     background-image: url("../img/ControllerBackground.jpg");
@@ -42,13 +26,6 @@ p {
     border: #000000;
   }
 
-.photo{
-    width:150px;
-    height:150px;
-    
- /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
-     object-fit:scale-down;
- }
 
  .btn {
      transition: 0.5s;
