@@ -8,7 +8,7 @@ var games = [
     {name: "Halo: Combat Evolved", system: "xbox"},
     {name: "Fable", system: "xbox"},
     {name: "Clash of Clans", system: "mobile"},
-    {name: "Betrayal At House On The Haunted Hill", system: "boardGames"}
+    {name: "Betrayal At House On The Haunted Hill", system: "boardGames"}];
 
 
 var marvelHeroes =  heroes.filter(function(hero) {
