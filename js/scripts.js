@@ -50,7 +50,7 @@ const games = [
     var options = filterOptions(filterField.value, optionsCache);
     replaceOptions(targetSelect, options);
   }
-  // attach filter event to trigger on keyup
+  // attached filter event to trigger on keyup
   var filter = document.getElementById("filter");
   filter.addEventListener("keyup", filterOptionsHandler, false);
 }());
