@@ -28,3 +28,8 @@ body { /* Changes background image to a selected image */
  .btn:hover {
      background: #000000;
  }
+
+ p { /* Added a border so content is easier to see and read.  This also helps break it down into manageable parts */
+     border: 5px solid lightseagreen;
+     padding: 5px
+ }
