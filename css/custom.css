@@ -7,7 +7,7 @@
     background-color: rgb(83, 255, 83);
 }
 
-.card {
+.card { /* Helps distinguish the cards from one another so that they don't blend together. */
     margin: 10px;
 }
 
@@ -20,12 +20,6 @@ body { /* Changes background image to a selected image */
     background: #a8aca6;
     background-image: url("../img/ControllerBackground.jpg");
 }
-
-p {
-    position: sticky;
-    border: #000000;
-  }
-
 
  .btn {
      transition: 0.5s;
