@@ -1,6 +1,6 @@
 // An array I built but didn't have time to map it properly.  To be continued after class ends...
 
-const games = [
+let games = [
     {name: "Super Mario World", system: "superNintendo"},
     {name: "Super Metroid", system: "superNintendo"},
     {name: "Super Mario RPG", system: "superNintendo"},
